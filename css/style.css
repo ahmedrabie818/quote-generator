@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+.container {
+  text-align: center;
+}
+h1 {
+  font-size: 80px;
+  margin-block: 50px;
+}
+
+.des {
+  font-size: 35px;
+  margin-bottom: 35px;
+}
+button {
+  all: initial;
+  text-align: center;
+  padding: 20px 50px;
+  border-radius: 15px;
+  background-color: blue;
+  color: white;
+  font-family: sans-serif;
+  transition: all 0.1s;
+}
+button:hover {
+  background-color: green;
+}
+
+#quote {
+  margin: 20px 0;
+  font-size: 35px;
+}
+#auther {
+  font-size: 20px;
+}
